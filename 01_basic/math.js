@@ -15,3 +15,4 @@ console.log(Math.ceil(3.5));
 // Generates random number between 0 and 4
 // Math.random() gives number between 0-1, multiplying by 4 gives range 0-4
 console.log(Math.random()*4);
+
