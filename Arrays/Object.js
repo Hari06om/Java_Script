@@ -28,3 +28,15 @@ console.log(jsUser[mySym]);
 
 
 
+
+//object 
+
+jsUser.email = "niki@gmail.com"
+Object.freeze(jsUser)
+jsUser.email =  "Globinx06@gmail.com"
+console.log(jsUser);
+
+
+
+
+
