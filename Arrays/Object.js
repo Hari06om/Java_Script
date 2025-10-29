@@ -41,8 +41,8 @@ jsUser.greeting = function() {
 // Correct way to call the method
 jsUser.greeting(); // Call the greeting method
 
-// Alternative way to define methods
 const userMethods = {
+// Alternative way to define methods
     getInfo() {
         return `User ${this.name} from ${this.location}`;
     },
