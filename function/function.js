@@ -18,8 +18,16 @@ function say(){
 say()
 
 
-function  addtwonumber(a,b){
-   console.log(a+b);
+// function  addtwonumber(a,b){
+//    console.log(a+b);
    
+// }
+
+function  addtwonumber(a,b){
+    let result = a + b ;
+    return result    
+    // return a+b
 }
-addtwonumber(5,6)
+const result = addtwonumber(5,6)
+
+console.log("Result: " , result);
