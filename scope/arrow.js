@@ -6,3 +6,4 @@ const user = {
         console.log(`${this.username}, welcome to website `);
     }
 }
+user.welcomeMessage()
