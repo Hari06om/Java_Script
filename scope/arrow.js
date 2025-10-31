@@ -7,3 +7,5 @@ const user = {
     }
 }
 user.welcomeMessage()
+user.username ="om "
+user.welcomeMessage()
