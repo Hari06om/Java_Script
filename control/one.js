@@ -50,24 +50,57 @@
     
 // }
 
+// Declare a constant named `month` and assign a numeric value representing the month.
+// Typical convention: 1 = January, 2 = February, ..., 12 = December.
+// Using `const` because we don't plan to reassign the variable.
+const month = 3;
 
-const month =3
-switch (month)
-{
-        case 1 : 
-            console.log("january");
-            break;
-        case 2 : 
-            console.log("Feb");
-            break;
-        case 3 : 
-            console.log("march");
-            break;
-        case 4 : 
-            console.log("April");
-            break;
-        default : {
-            console.log("Enter the number ");
-            
-        }
+// The `switch` statement evaluates the expression in parentheses (here, `month`)
+// and compares it to each `case` label using strict equality (===).
+// When a matching case is found, execution starts at that case.
+// The `break` statement prevents execution from "falling through" to subsequent cases.
+switch (month) {
+    // If month is strictly equal to 1, run this block:
+    case 1:
+        // Log the month name for case 1
+        console.log("january");
+        // `break` stops further case checks and exits the switch
+        break;
+
+    // If month is strictly equal to 2, run this block:
+    case 2:
+        console.log("Feb");
+        break;
+
+    // If month is strictly equal to 3, run this block:
+    case 3:
+        console.log("march");
+        break;
+
+    // If month is strictly equal to 4, run this block:
+    case 4:
+        console.log("April");
+        break;
+
+    // `default` runs when no `case` matches the evaluated expression.
+    // It acts like the `else` branch of an if/else chain.
+    default: {
+        // Inform the user that the provided number does not match handled cases.
+        console.log("Enter the number ");
+        // No `break` needed after `default` if it's the last block, but it's allowed.
+    }
 }
+
+// Notes:
+// - `switch` comparisons are strict (no type coercion): the type and value must match.
+// - Omitting `break` causes fall-through: the next case's code will execute too.
+// - For month ranges or many values, consider using an object lookup or an array for clarity:
+//     const names = [null, "January","February","March","April", ...];
+//     console.log(names[month] || "Enter the number");
+
+// Nullish coalecing Operator (??):null undefined
+
+let val ;
+val = 5 ?? 10
+
+console.log((val));
