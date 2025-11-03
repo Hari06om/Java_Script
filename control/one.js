@@ -37,7 +37,37 @@
 // console.log(`user power: ${power}`);
 
 
-const balance = 1000 
-if(balance > 500){
+// const balance = 1000 
+// if(balance < 500){
+//     console.log("less than ");
     
+// }else if (balance<750){
+//     console.log(" LEss than 750");
+    
+// }
+// else{
+//     console.log("less than 1200 ");
+    
+// }
+
+
+const month =3
+switch (month)
+{
+        case 1 : 
+            console.log("january");
+            break;
+        case 2 : 
+            console.log("Feb");
+            break;
+        case 3 : 
+            console.log("march");
+            break;
+        case 4 : 
+            console.log("April");
+            break;
+        default : {
+            console.log("Enter the number ");
+            
+        }
 }
