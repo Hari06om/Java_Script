@@ -104,3 +104,21 @@ let val ;
 val = 5 ?? 10
 
 console.log((val));
+
+
+// Ternary operator examples: condition ? valueIfTrue : valueIfFalse
+
+const age = 20;
+const canVote = age >= 18 ? "Yes, can vote" : "No, too young";
+console.log(`Age ${age}: ${canVote}`);
+
+const num = -5;
+const sign = num === 0 ? "zero" : (num > 0 ? "positive" : "negative");
+console.log(`${num} is ${sign}`);
+
+function greeting(name) {
+    return name ? `Hello, ${name}!` : "Hello, stranger!";
+}
+console.log(greeting("Avi"));
+console.log(greeting(""));
+
