@@ -16,12 +16,25 @@
 
 
 
-for (let i = 0; i <=10; i++) {
-    console.log(`outer loop value:${i}`);
+
+// table 
+
+// for (let i = 0; i <=10; i++) {
+//     console.log(`outer loop value:${i}`);
     
-    for (let j = 0; j<=10; j++) {
-        // console.log(`inner loop value:${j}and outer loop is ${i}`);
-     console.log(i+" * " + j + " = " +i*j);
+//     for (let j = 0; j<=10; j++) {
+//         // console.log(`inner loop value:${j}and outer loop is ${i}`);
+//      console.log(i+" * " + j + " = " +i*j);
         
-    }
+//     }
+// }
+
+
+
+const myarray = ["flash","batman","superman","ironman"] 
+
+for (let i = 0; i < myarray.length; i++) {
+    const element = myarray[i];
+    console.log(element);
+    
 }
