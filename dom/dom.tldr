@@ -80,9 +80,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 276.0175763804144,
-			"y": 95.80724391650028,
-			"lastActivityTimestamp": 1762584827549,
+			"x": 91.48627771606522,
+			"y": 1178.1545779722612,
+			"lastActivityTimestamp": 1762585206534,
 			"meta": {}
 		},
 		{
@@ -512,8 +512,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 352.7958158846559,
-			"y": 520.9343078280984,
+			"x": 332.5176448123466,
+			"y": 330.8264540251987,
 			"z": 0.47341549353630474,
 			"meta": {},
 			"id": "camera:page:page",
@@ -746,10 +746,10 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:_Jlrj7QsQDIuldp2UyY-S",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:_Jlrj7QsQDIuldp2UyY-S"
+				"shape:ElIhMs7zTFIMw5Ic-KLNn"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -1247,6 +1247,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -186.51476451272873,
+			"y": 1044.0337603949088,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ElIhMs7zTFIMw5Ic-KLNn",
+			"type": "geo",
+			"props": {
+				"w": 409.4289682874089,
+				"h": 281.58138991190094,
+				"geo": "x-box",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aWD4xdcV",
+			"typeName": "shape"
+		},
+		{
 			"x": -70.31997978210458,
 			"y": 660.4801635742188,
 			"rotation": 0,
@@ -1310,9 +1347,11 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
+				"tldraw:geo": "x-box",
 				"tldraw:color": "black",
-				"tldraw:font": "draw"
+				"tldraw:font": "draw",
+				"tldraw:size": "m",
+				"tldraw:dash": "draw"
 			},
 			"brush": null,
 			"scribbles": [],
