@@ -42,6 +42,13 @@
 
 
         //remove
+        // remove last list item safely
+        const list = document.querySelector('.language');
+        if (list && list.lastElementChild) {
+            list.removeChild(list.lastElementChild);
+        }
+        
+
 
 </script>
 
