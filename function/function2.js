@@ -26,6 +26,7 @@ handleObject({
     price : 300
 })
 
+
 const myNewArray =[200,400,100,600]
 
 function returnsecondValue(getarray){
@@ -34,3 +35,5 @@ function returnsecondValue(getarray){
 
 // console.log(returnsecondValue(myNewArray));
 console.log(returnsecondValue([200,300,400,600]));
+
+

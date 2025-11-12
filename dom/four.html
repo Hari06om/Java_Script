@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom </title>
+</head>
+<body  style="background-color: black; color: white; font-family: Arial, sans-serif; margin: 20px;">
+    <ul class="language">
+        <li>
+            Java Script
+        </li>
+    </ul>
+</body>
+<script>
+
+    function addLanguage(langname){ // define a function that takes a language name
+        const li = document.createElement('li'); // create a new <li> element
+        li.innerHTML = `${langname}`; // set the <li> content to the provided language name
+        document.querySelector('.language').appendChild(li); // find the <ul class="language"> and append the new <li>
+    } // end of addLanguage function
+    addLanguage('Python'); // call the function to add "Python"
+    addLanguage('C++'); // call the function to add "C++"
+    addLanguage('Java'); // call the function to add "Java"
+
+    // Define a function that takes a language name and adds it to the list
+    function addOptiLanguage(langname){
+        const li = document.createElement('li'); // Create a new <li> element
+        li.appendChild(document.createTextNode(langname)); // Set the <li> content to the provided language name
+        document.querySelector('.language').appendChild(li); // Find the <ul class="language"> and append the new <li>
+    }
+    addOptiLanguage('Ruby'); // Call the function to add "Ruby" to the list
+
+    //edit 
+// Select the first <li> element and change its content to "HTML"
+   const secondLang =  document.querySelector('li:nth-child(2)') // Remove the second <li> element from the list
+   secondLang.innerHTML = "mojo"
+
+    const newli =    document.createElement('li')
+    newli.textContent = "Swift"
+    secondLang.replaceWith(newli) // Replace the modified second <li> with a new <li> containing "Swift"
+
+
+        //remove
+
+</script>
+
+
+</html>
